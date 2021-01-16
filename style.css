@@ -77,8 +77,28 @@ a{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
 }
 .Logo{
     margin: 0 auto;
 }
+}
+.container{
+ 
+    background: rgb(7,252,253);
+    background: linear-gradient(90deg, rgba(7,252,253,1) 32%, rgba(0,202,255,1) 87%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-main1{
+    color: white;
+    font-size: 3.5rem;
+}
+.paragraph-main2{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
 }
