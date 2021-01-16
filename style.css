@@ -313,6 +313,27 @@ a{
     color: grey;
     padding-bottom: 30px;
 }
+form{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.inp{
+    padding: 20px 50px;
+    border: gainsboro 2px solid;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+.button-sub{
+    padding: 20px 30px;
+    background-color: rgb(64, 169, 196);
+    font-size: 2rem;
+    color: white;
+    margin-left: 20px;
+    border-style: none;
+    border-radius: 5%;
+}
 @media (max-width: 650px){
     .nav-bar {
         margin-top: 10px;
@@ -352,5 +373,8 @@ a{
     }
     .card-plans-ex{
         margin-left: 40px;
+    }
+    .button-sub{
+        margin-left:  0px;
     }
     }
