@@ -131,7 +131,7 @@ a{
 
 .img-section{
     width: 40vw;
-    height: 400px;
+    height: 380px;
     margin-left: 100px;
 
 }
@@ -145,6 +145,7 @@ a{
 }
 .info-step-container{
     display: flex;
+    margin-bottom: 10px;
     
 }
 .steps-icons{
@@ -169,6 +170,60 @@ a{
     color: grey;
     padding-bottom: 40px;
 }
+.Recents-web--container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 400px));
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+
+.recent-web{
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+.recents-websites{
+    width: 100%;
+    vertical-align: top;
+    height: 100%;
+}
+.post-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+.post-overlay p{
+    font-size: 1.4rem;
+}
+.recent-web:hover .post-overlay {
+    display: flex;
+}
+
+.Recents-container h2{
+    text-align: center;
+    color: rgb(64, 169, 196) ;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.Recents-container hr{
+     width: 88%;
+     margin: 0 auto;
+ }
+.Recents-container{
+    margin-bottom: 30px;
+}
+
 
 @media (max-width: 650px){
     .nav-bar {
