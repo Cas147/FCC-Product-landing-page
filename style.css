@@ -133,12 +133,15 @@ a{
     width: 40vw;
     height: 400px;
     margin-left: 100px;
+
 }
 .steps-cotainer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .info-step-container{
     display: flex;
@@ -147,6 +150,24 @@ a{
 .steps-icons{
     width: 50px;
     height: 40px;
+    margin-right: 20px;
+}
+.step-information--container{
+    margin: 0 auto;
+}
+.step-information--container h2{
+    font-size: 3.8rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: rgb(64, 169, 196);
+}
+.info-step-container b{
+    font-size: 3rem;
+}
+.info-step-container p{
+    font-size: 1.5rem;
+    color: grey;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 650px){
@@ -179,5 +200,8 @@ a{
     .img-main{
         max-width: 100%;
         width: auto;
+    }
+    .img-section{
+        display: none;
     }
     }
