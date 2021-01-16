@@ -334,6 +334,11 @@ form{
     border-style: none;
     border-radius: 5%;
 }
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
 @media (max-width: 650px){
     .nav-bar {
         margin-top: 10px;
