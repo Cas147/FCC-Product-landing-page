@@ -129,6 +129,26 @@ a{
 
 }
 
+.img-section{
+    width: 40vw;
+    height: 400px;
+    margin-left: 100px;
+}
+.steps-cotainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.info-step-container{
+    display: flex;
+    
+}
+.steps-icons{
+    width: 50px;
+    height: 40px;
+}
+
 @media (max-width: 650px){
     .nav-bar {
         margin-top: 10px;
