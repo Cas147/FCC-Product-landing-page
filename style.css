@@ -240,6 +240,59 @@ a{
     align-self: center;
 }
 
+.Cards-plans-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-plans{
+    width: 280px;
+    height: 450px;
+    box-shadow: 0 8px 15px -4px rgba(9, 11, 12, 0.8);
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.card-img{
+    width: 280px;
+    height: 220px;
+}
+.card-title{
+    color: rgb(64, 169, 196) ;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.card-price{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.card-price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.card-description{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: grey;
+    text-align: center;
+}
+.card-select{
+    background-color: rgb(64, 169, 196) ;
+    color: white;
+    padding: 10px 70px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+.select-container{
+    margin-top: 50px;
+    margin-left: 30px;
+}
 @media (max-width: 650px){
     .nav-bar {
         margin-top: 10px;
