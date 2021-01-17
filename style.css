@@ -335,9 +335,24 @@ form{
     border-radius: 5%;
 }
 footer{
+    background-color: rgb(209, 206, 206);
+}
+.links-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
+}
+.links-container a{
+    color: black;
+    font-size: 2rem;
+    padding-right: 30px;
+}
+.links-container a:hover{
+    color:rgb(64, 169, 196) ;
+}
+footer p{
+    color: grey;
+    font-size: 1.4rem;
 }
 @media (max-width: 650px){
     .nav-bar {
